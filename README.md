@@ -1,0 +1,2 @@
+# Szovegszerkezto
+Szövegszerkeztő
