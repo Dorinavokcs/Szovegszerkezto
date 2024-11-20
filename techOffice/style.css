@@ -32,14 +32,15 @@ body {
 
 .content {
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .content textarea {
-    display: flex;
+
     width: 50rem;
-    align-items: center;
-    justify-content: center;
-    height: 50rem;
+    grid-column-start: 3;
+    height: 53rem;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
