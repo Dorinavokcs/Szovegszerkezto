@@ -47,6 +47,7 @@ body {
     resize: none;
     font-size: 16px;
 }
- .bold{
-
- }
+.bi-type-bold::before{
+    font-size: 2vh !important;
+    vertical-align: middle;
+}
