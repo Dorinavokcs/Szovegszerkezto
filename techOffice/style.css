@@ -94,6 +94,7 @@ body {
 }
 
 #align-center{
+    font-size: 3vh;
     padding: 0;
     border: none;
     background: none;
