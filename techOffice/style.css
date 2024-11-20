@@ -47,7 +47,25 @@ body {
     resize: none;
     font-size: 16px;
 }
-.bi-type-bold::before{
-    font-size: 2vh !important;
-    vertical-align: middle;
+/**********************************************/
+.bi-type-bold::before{ /*BOLD GOMB*/
+    font-size: 3vh !important;
+    vertical-align: middle; 
+}
+#bold{
+    padding: 0;
+    border: none;
+    background: none;
+}
+/*****************************************************/
+.bi bi-arrow-right-square-fill::before{ /*JOBB OLDAL GOMB*/
+
+    vertical-align: middle; 
+    width: 18rem;
+}
+#align-right{
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 3vh !important;
 }
